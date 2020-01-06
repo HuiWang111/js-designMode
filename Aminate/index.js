@@ -1,6 +1,6 @@
 
 /**
- * @description tween为一系列动画的算法
+ * @description tween为一系列动画算法。Animate传入不同的动画算法实现不同的动画效果，就是策略模式的体现。
  */
 const tween = {
   linear (t, b, c, d) {
